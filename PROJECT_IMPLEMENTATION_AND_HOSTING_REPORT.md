@@ -13,12 +13,12 @@
 
 | Component | Target Hosting Platform | Deployment URL / Live Endpoint | Status |
 | :--- | :--- | :--- | :---: |
-| **Frontend Web Client** | **Vercel** (Edge CDN) | `https://skillzy-platform.vercel.app` | 🟢 Ready to Deploy |
-| **Backend REST API** | **Render** (Node Web Service) | `https://skillzy-api.onrender.com` | 🟢 Configured |
-| **API Health Check** | Render Production Healthcheck | `https://skillzy-api.onrender.com/api/health` | 🟢 Verified |
-| **Database Cluster** | **MongoDB Atlas** (Cloud Replica Set) | `mongodb+srv://cluster0.sdddbc9.mongodb.net/skillswap` | 🟢 Online |
-| **Local Staging UI** | Localhost Dev Environment | `http://localhost:3000` | 🟢 Running |
-| **Local Staging API** | Localhost Express Engine | `http://localhost:5000/api` | 🟢 Running |
+| **Instant Live Web App (HTTPS)** | **Cloudflare Secure Edge** | [https://deliver-carey-stuffed-gulf.trycloudflare.com](https://deliver-carey-stuffed-gulf.trycloudflare.com) | 🟢 **ACTIVE & LIVE** |
+| **Instant Live Backend API (HTTPS)** | **Cloudflare Secure Edge** | [https://arts-brunswick-ash-casual.trycloudflare.com/api/health](https://arts-brunswick-ash-casual.trycloudflare.com/api/health) | 🟢 **ACTIVE & LIVE** |
+| **GitHub Source Repository** | **GitHub** | [https://github.com/lokeshpurohit1212/skillzy](https://github.com/lokeshpurohit1212/skillzy) | 🟢 **PUSHED & READY** |
+| **Backend Deploy on Render** | **Render (1-Click Blueprint)** | [Deploy to Render](https://dashboard.render.com/blueprints/new?repo=https://github.com/lokeshpurohit1212/skillzy) | 🚀 1-Click Launch |
+| **Frontend Deploy on Vercel** | **Vercel (1-Click Import)** | [Deploy to Vercel](https://vercel.com/new/clone?repository-url=https://github.com/lokeshpurohit1212/skillzy&root-directory=client) | 🚀 1-Click Launch |
+| **Database Cluster** | **MongoDB Atlas (Replica Set)** | `mongodb+srv://cluster0.sdddbc9.mongodb.net/skillswap` | 🟢 Online |
 
 ---
 
