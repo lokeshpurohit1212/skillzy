@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg_pooja-agarwal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E8FF"/>
+      <stop offset="100%" stop-color="#E9D5FF"/>
+    </linearGradient>
+    <linearGradient id="skin_pooja-agarwal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5C29F"/>
+      <stop offset="100%" stop-color="#bf9c79"/>
+    </linearGradient>
+    <linearGradient id="clothes_pooja-agarwal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5D3C64"/>
+      <stop offset="100%" stop-color="#2a0931"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="256" height="256" rx="36" fill="url(#bg_pooja-agarwal)"/>
+
+  <circle cx="128" cy="50" r="30" fill="#27272A"/>
+
+  <!-- Body & Clothing -->
+  <path d="M42 256 C42 195, 78 178, 128 178 C178 178, 214 195, 214 256 Z" fill="url(#clothes_pooja-agarwal)"/>
+
+  <!-- Neck -->
+  <rect x="111" y="142" width="34" height="42" rx="10" fill="url(#skin_pooja-agarwal)"/>
+  
+  <!-- Subtle collar / neckline -->
+  <path d="M104 182 Q128 200 152 182" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="3" fill="none"/>
+
+  <!-- Head/Face -->
+  <ellipse cx="128" cy="114" rx="48" ry="54" fill="url(#skin_pooja-agarwal)"/>
+
+  <!-- Ears -->
+  <ellipse cx="78" cy="116" rx="7" ry="12" fill="url(#skin_pooja-agarwal)"/>
+  <ellipse cx="178" cy="116" rx="7" ry="12" fill="url(#skin_pooja-agarwal)"/>
+
+  <!-- Eyes -->
+  <ellipse cx="108" cy="112" rx="5" ry="4" fill="#1C1917"/>
+  <ellipse cx="148" cy="112" rx="5" ry="4" fill="#1C1917"/>
+  <circle cx="110" cy="110" r="1.5" fill="#FFFFFF"/>
+  <circle cx="150" cy="110" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Eyebrows -->
+  <path d="M98 102 Q108 97 118 102" stroke="#18181B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M138 102 Q148 97 158 102" stroke="#18181B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+
+  <!-- Nose -->
+  <path d="M128 113 L123 126 L133 126" stroke="#9A3412" stroke-opacity="0.6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Warm Smile -->
+  <path d="M115 137 Q128 149 141 137" stroke="#881337" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  
+      <rect x="94" y="104" width="28" height="20" rx="6" fill="none" stroke="#262626" stroke-width="2.5"/>
+      <rect x="134" y="104" width="28" height="20" rx="6" fill="none" stroke="#262626" stroke-width="2.5"/>
+      <line x1="122" y1="113" x2="134" y2="113" stroke="#262626" stroke-width="2.5"/>
+      <line x1="82" y1="112" x2="94" y2="112" stroke="#262626" stroke-width="2"/>
+      <line x1="162" y1="112" x2="174" y2="112" stroke="#262626" stroke-width="2"/>
+    
+
+  <path d="M78 110 C75 75, 95 55, 128 55 C161 55, 181 75, 178 110 C165 80, 148 68, 128 68 C108 68, 91 80, 78 110 Z" fill="#27272A"/>
+</svg>

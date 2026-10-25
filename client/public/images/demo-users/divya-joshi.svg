@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg_divya-joshi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="100%" stop-color="#D1FAE5"/>
+    </linearGradient>
+    <linearGradient id="skin_divya-joshi" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5C099"/>
+      <stop offset="100%" stop-color="#bf9a73"/>
+    </linearGradient>
+    <linearGradient id="clothes_divya-joshi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#006336"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="256" height="256" rx="36" fill="url(#bg_divya-joshi)"/>
+
+  <path d="M70 120 C60 70, 85 35, 128 35 C171 35, 196 70, 186 120 C180 180, 190 230, 195 256 L61 256 C66 230, 76 180, 70 120 Z" fill="#1E1B18"/>
+
+  <!-- Body & Clothing -->
+  <path d="M42 256 C42 195, 78 178, 128 178 C178 178, 214 195, 214 256 Z" fill="url(#clothes_divya-joshi)"/>
+
+  <!-- Neck -->
+  <rect x="111" y="142" width="34" height="42" rx="10" fill="url(#skin_divya-joshi)"/>
+  
+  <!-- Subtle collar / neckline -->
+  <path d="M104 182 Q128 200 152 182" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="3" fill="none"/>
+
+  <!-- Head/Face -->
+  <ellipse cx="128" cy="114" rx="48" ry="54" fill="url(#skin_divya-joshi)"/>
+
+  <!-- Ears -->
+  <ellipse cx="78" cy="116" rx="7" ry="12" fill="url(#skin_divya-joshi)"/>
+  <ellipse cx="178" cy="116" rx="7" ry="12" fill="url(#skin_divya-joshi)"/>
+
+  <!-- Eyes -->
+  <ellipse cx="108" cy="112" rx="5" ry="4" fill="#1C1917"/>
+  <ellipse cx="148" cy="112" rx="5" ry="4" fill="#1C1917"/>
+  <circle cx="110" cy="110" r="1.5" fill="#FFFFFF"/>
+  <circle cx="150" cy="110" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Eyebrows -->
+  <path d="M98 102 Q108 97 118 102" stroke="#18181B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M138 102 Q148 97 158 102" stroke="#18181B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+
+  <!-- Nose -->
+  <path d="M128 113 L123 126 L133 126" stroke="#9A3412" stroke-opacity="0.6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Warm Smile -->
+  <path d="M115 137 Q128 149 141 137" stroke="#881337" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <circle cx="80" cy="125" r="3.5" fill="#F59E0B"/><circle cx="176" cy="125" r="3.5" fill="#F59E0B"/>
+
+  <path d="M78 100 C80 65, 105 50, 128 50 C151 50, 176 65, 178 100 C165 72, 145 60, 128 60 C111 60, 91 72, 78 100 Z" fill="#1E1B18"/>
+</svg>

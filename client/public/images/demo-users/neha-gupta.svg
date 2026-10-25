@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg_neha-gupta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE7F3"/>
+      <stop offset="100%" stop-color="#FBCFE8"/>
+    </linearGradient>
+    <linearGradient id="skin_neha-gupta" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#DAB38B"/>
+      <stop offset="100%" stop-color="#b48d65"/>
+    </linearGradient>
+    <linearGradient id="clothes_neha-gupta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BE185D"/>
+      <stop offset="100%" stop-color="#8b002a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="256" height="256" rx="36" fill="url(#bg_neha-gupta)"/>
+
+  <path d="M72 120 C65 75, 88 40, 128 40 C168 40, 191 75, 184 120 C180 160, 195 195, 190 220 L66 220 C61 195, 76 160, 72 120 Z" fill="#262626"/>
+
+  <!-- Body & Clothing -->
+  <path d="M42 256 C42 195, 78 178, 128 178 C178 178, 214 195, 214 256 Z" fill="url(#clothes_neha-gupta)"/>
+
+  <!-- Neck -->
+  <rect x="111" y="142" width="34" height="42" rx="10" fill="url(#skin_neha-gupta)"/>
+  
+  <!-- Subtle collar / neckline -->
+  <path d="M104 182 Q128 200 152 182" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="3" fill="none"/>
+
+  <!-- Head/Face -->
+  <ellipse cx="128" cy="114" rx="48" ry="54" fill="url(#skin_neha-gupta)"/>
+
+  <!-- Ears -->
+  <ellipse cx="78" cy="116" rx="7" ry="12" fill="url(#skin_neha-gupta)"/>
+  <ellipse cx="178" cy="116" rx="7" ry="12" fill="url(#skin_neha-gupta)"/>
+
+  <!-- Eyes -->
+  <ellipse cx="108" cy="112" rx="5" ry="4" fill="#1C1917"/>
+  <ellipse cx="148" cy="112" rx="5" ry="4" fill="#1C1917"/>
+  <circle cx="110" cy="110" r="1.5" fill="#FFFFFF"/>
+  <circle cx="150" cy="110" r="1.5" fill="#FFFFFF"/>
+
+  <!-- Eyebrows -->
+  <path d="M98 102 Q108 97 118 102" stroke="#18181B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M138 102 Q148 97 158 102" stroke="#18181B" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+
+  <!-- Nose -->
+  <path d="M128 113 L123 126 L133 126" stroke="#9A3412" stroke-opacity="0.6" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Warm Smile -->
+  <path d="M115 137 Q128 149 141 137" stroke="#881337" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+  <circle cx="128" cy="98" r="2.8" fill="#991B1B"/>
+
+  <path d="M76 102 C82 68, 104 54, 128 54 C152 54, 174 68, 180 102 C168 76, 148 64, 128 64 C108 64, 88 76, 76 102 Z" fill="#262626"/>
+</svg>

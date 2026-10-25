@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production Build
+client/build/
+dist/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+client/.env
+
+# Uploads & Temp
+server/uploads/*
+!server/uploads/.gitkeep
+temp/
+*.log
+
+# System & OS
+.DS_Store
+Thumbs.db
+capture.ps1
